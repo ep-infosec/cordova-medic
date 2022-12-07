@@ -1,0 +1,8 @@
+pbcsUser    = 'password'
+pbcsPwd     = 'password'
+webAuthUser = 'password'
+webAuthPwd  = 'password'
+
+cordovaOSXSlavePwd     = 'password'
+cordovaWindowsSlavePwd = 'password'
+githubSecret           = 'password'

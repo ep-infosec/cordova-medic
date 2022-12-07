@@ -1,0 +1,43 @@
+{
+  "name": "medic",
+  "version": "0.2.3",
+  "description": "continuous integration setup for Apache Cordova",
+  "author": "Fil Maj <maj.fil@gmail.com> (http://filmaj.ca)",
+  "bin": {
+    "medic": "./medic/medic.js"
+  },
+  "dependencies": {
+    "appium": "^1.5.0",
+    "commander": "^2.8.1",
+    "elementtree": "^0.1.6",
+    "expect-telnet": "^0.5.2",
+    "follow": "^0.11.4",
+    "jasmine": "^2.4.1",
+    "optimist": "^0.6.1",
+    "q": "^2.0.2",
+    "request": "^2.55.0",
+    "shelljs": "^0.4.0",
+    "tree-kill": "^1.0.0",
+    "unorm": "^1.4.1",
+    "wd": "^0.3.11",
+    "mkdirp": "^0.5.1",
+    "path-extra": "^3.0.0"
+  },
+  "subdomain": "cordova.medic",
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "contributors": [
+    {
+      "name": "Don Coleman",
+      "email": "don.coleman@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "node_modules/.bin/jshint medic lib"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
+}
